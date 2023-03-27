@@ -18,37 +18,7 @@ namespace MailAPI.Controllers
     {
        
        public ApiContext Db;
-        static List<BuyMail> db = new List<BuyMail>()
-        {
-            new BuyMail()
-            {
-              
-                DateTime = DateTime.Now,
-                Domain = "@jellyfree.com",
-                Email = "demonde@jellyfree.com",
-                MailID = 5434,
-                Price = 4
-            },
-             new BuyMail()
-            {
-          
-                DateTime = DateTime.Now,
-                Domain = "@jellyfree.com",
-                Email = "desemonde@jellyfree.com",
-                MailID = 5444,
-                Price = 4
-            },
-            new BuyMail()
-            {
-                 
-                DateTime = DateTime.Now,
-                Domain = "@jellyfree.com",
-                Email = "emdjjede@jellyfree.com",
-                MailID = 542434,
-                Price = 4
-            }
-           };
-
+        
         
         public MailController(ApiContext us)
         {
